@@ -362,4 +362,13 @@ form button {
     .formulario {
         padding: 4rem 2rem;
     }
+
+    .depoimentos {
+        margin: 4rem auto;
+        padding: 3rem 0;
+    }
+
+    .vagas__imagem {
+        width: 100%;
+    }
 }
