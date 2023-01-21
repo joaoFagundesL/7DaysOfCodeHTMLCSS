@@ -281,6 +281,11 @@ form button {
 }
 
 @media screen and (max-width: 850px) {
+
+    .oportunidades {
+         width: 70%; 
+    }
+
     .metricas {
         flex-direction: column;
         align-items: center;
@@ -347,4 +352,14 @@ form button {
         font-size: 120%;
     }
     
+}
+
+@media screen and (max-width: 470px) {
+    .oportunidades {
+        width: 80%;
+    }
+
+    .formulario {
+        padding: 4rem 2rem;
+    }
 }
