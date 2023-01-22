@@ -89,7 +89,7 @@ body {
 }
 
 .sobre__diferentes {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -152,6 +152,10 @@ body {
     border-radius: 16px;
     padding: 4px 12px;
     color: #8E2424;
+}
+
+.vagas__titulo {
+    font-size: 2rem;
 }
 
 .vagas__descricao {
@@ -278,6 +282,12 @@ form input {
 form button {
     border: none;
     font-size: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+    .sobre__diferente-descricao {
+        max-width: 60%;
+    }
 }
 
 @media screen and (max-width: 850px) {
